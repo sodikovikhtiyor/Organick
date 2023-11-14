@@ -1,0 +1,52 @@
+@import "../Color.scss";
+.primaryNav {
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+
+  .navlink:hover,
+  .active {
+    text-decoration: underline;
+  }
+  .navlink {
+    color: $primary-color;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .pagesLink {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .primaryNav {
+    margin-left: 2rem;
+    .navlink {
+      padding: 8px;
+      margin-right: 5px;
+      font-size: 14px;
+    }
+    
+  }
+}
+@media screen and (max-width: 700px) {
+  .primaryNav {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .primaryNav {
+    margin-left: 1rem;
+    .navlink {
+      padding: 6px;
+      margin-right: 3px;
+      font-size: 10px;
+    }
+    .pagesLink {
+      .icon {
+        width: 15px;
+      }
+    }
+  }
+}

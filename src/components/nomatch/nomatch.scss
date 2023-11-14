@@ -1,0 +1,84 @@
+@import "../Color.scss";
+.nomatch {
+  background: url("../../assets/flower.svg") center / cover no-repeat;
+  height: 100vh;
+  color: $primary-color;
+  font-size: 3rem;
+//   padding: 2rem 0;
+  text-align: right;
+  .nomatch-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    span {
+        color: #8FA8A8;
+        font-size: 6em;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .half_two {
+        width: 70%;
+
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .nomatch {
+    background: url("../../assets/flower.svg") center / cover no-repeat;
+    height: 100vh;
+    color: $primary-color;
+    font-size: 2rem;
+    text-align: right;
+    .nomatch-container {
+      width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .nomatch {
+    background: url("../../assets/flower.svg") center / cover no-repeat;
+    height: 100vh;
+    color: $primary-color;
+    font-size: 2rem;
+    text-align: right;
+    
+    .nomatch-container {
+      width: 700px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    //   justify-content: center;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+    .nomatch {
+      .nomatch-container {
+        width: 500px;
+       
+      }
+    }
+  }
+  
+@media screen and (max-width: 500px) {
+    .nomatch {
+      .nomatch-container {
+        width: 300px;
+        span {
+            
+        }
+       
+      }
+    }
+  }
+  

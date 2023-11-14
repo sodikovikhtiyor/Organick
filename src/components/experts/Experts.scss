@@ -1,0 +1,170 @@
+@import "../Color.scss";
+.experts {
+  padding: 4rem 0;
+  .experts-container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    .title {
+      color: $secondary-color;
+      font-size: 22px;
+      font-family: yellowtail;
+    }
+    h1 {
+      color: $primary-color;
+      font-size: 45px;
+      margin-bottom: 2rem;
+    }
+    p {
+      color: $grey-color;
+      width: 60%;
+      margin: 0 auto;
+    }
+    .expertsCards {
+      display: flex;
+      justify-content: space-between;
+      padding: 3rem 0;
+      flex-wrap: wrap;
+      .expert {
+        border-radius: 30px;
+        width: 380px;
+        box-shadow: $box-shadow;
+        text-align: left;
+        img {
+          width: 100%;
+          border-top-left-radius: 30px;
+          border-top-right-radius: 30px;
+        }
+        h5 {
+          margin: 20px 0 10px 20px;
+          font-size: 20px;
+          color: $primary-color;
+        }
+        p {
+          color: $secondary-color;
+          margin: 0 0 30px 20px;
+          width: 90%;
+          font-family: yellowtail;
+          vertical-align: middle;
+          display: flex;
+          justify-content: space-between;
+          .icons {
+            .link {
+              vertical-align: middle;
+              color: $primary-color;
+              width: 20px;
+              cursor: pointer;
+              border-radius: 4px;
+              &:hover {
+                color: $white-color;
+                background-color: $primary-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .experts {
+    padding: 3rem 0;
+    .experts-container {
+      width: 900px;
+
+      .title {
+        font-size: 24px;
+      }
+      h1 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+      }
+      p {
+        width: 80%;
+      }
+      .expertsCards {
+        .expert {
+          width: 360px;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .experts {
+    padding: 3rem 0;
+    .experts-container {
+      width: 700px;
+
+      .title {
+        font-size: 24px;
+      }
+      h1 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+      }
+      p {
+        width: 80%;
+        font-size: 14px !important;
+      }
+      .expertsCards {
+        justify-content: center;
+        .expert {
+          width: 360px;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .experts {
+    padding: 3rem 0;
+    .experts-container {
+      width: 500px;
+
+      .title {
+        font-size: 24px !important;
+      }
+      h1 {
+        font-size: 35px;
+        margin-bottom: 2rem;
+      }
+      p {
+        width: 80%;
+      }
+      .expertsCards {
+        .expert {
+          width: 360px;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .experts {
+    padding: 3rem 0;
+    .experts-container {
+      width: 300px;
+
+      .title {
+        font-size: 24px !important;
+      }
+      h1 {
+        font-size: 35px;
+        margin-bottom: 2rem;
+      }
+      p {
+        width: 80%;
+      }
+      .expertsCards {
+        .expert {
+          width: 360px;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}

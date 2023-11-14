@@ -1,0 +1,35 @@
+@import "../Color.scss";
+.aboutShowcase {
+  background: url("../../assets/about-showcase.png") center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: $primary-color;
+  height: 350px;
+  width: 100%;
+}
+@media screen and (max-width: 1210px)  {
+  .aboutShowcase {
+    font-size: 32px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 900px)  {
+  .aboutShowcase {
+    font-size: 30px;
+    height: 280px;
+  }
+}
+@media screen and (max-width:700px)  {
+  .aboutShowcase {
+    font-size: 30px;
+    height: 250px;
+  }
+}
+@media screen and (max-width:500px)  {
+  .aboutShowcase {
+    font-size: 30px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,72 @@
+@import "../Color.scss";
+
+.products {
+  padding: 5rem 0;
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+    .title {
+      color: $secondary-color;
+      font-family: yellowtail;
+      font-size: 28px;
+    }
+    h1 {
+      color: $primary-color;
+      font-size: 45px;
+      margin: 20px 0;
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .products {
+    padding: 4rem 0;
+    .products-container {
+      max-width: 900px;
+
+      h1 {
+        font-size: 40px;
+        margin: 18px 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .products {
+    padding: 3rem 0;
+    .products-container {
+      max-width: 700px;
+
+      h1 {
+        font-size: 35px;
+        margin: 15px 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .products {
+    padding: 2rem 0;
+    .products-container {
+      max-width: 500px;
+      h1 {
+        font-size: 35px;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .products {
+    padding: 1rem 0;
+    .products-container {
+      max-width: 300px;
+
+      h1 {
+        font-size: 35px;
+        margin: 10px 0;
+      }
+    }
+  }
+}

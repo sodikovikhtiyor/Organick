@@ -1,0 +1,79 @@
+@import "../Color.scss";
+.whyCards {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 4rem 0;
+  width: 100%;
+  .whyCard {
+    background: $white-color;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    width: 240px;
+    img {
+      width: 75px;
+      background-color: $light-gray-bg;
+      border-radius: 18px;
+      padding: 20px;
+    }
+    h3 {
+      color: $primary-color;
+      margin: 1.5rem 0;
+    }
+    p {
+      color: $grey-color;
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .whyCards {
+    padding: 3rem 0;
+    width: 100%;
+    .whyCard {
+      padding: 2.5rem 1.5rem;
+      width: 210px;
+      img {
+        width: 75px;
+
+        padding: 25px;
+      }
+      h3 {
+        margin: 1.2rem 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .whyCards {
+    padding: 2rem 0;
+    gap: 20px;
+    .whyCard {
+      padding: 2rem 1rem;
+      width: 250px !important;
+      img {
+        width: 75px;
+        padding: 20px;
+      }
+      h3 {
+        margin: 1.2rem 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .whyCards {
+    .whyCard {
+      padding: 2.5rem 1.5rem;
+      width: 210px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .whyCards {
+    .whyCard {
+      padding: 2.5rem 1.5rem;
+      width: 210px !important;
+    }
+  }
+}

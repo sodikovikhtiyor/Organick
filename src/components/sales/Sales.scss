@@ -1,0 +1,114 @@
+@import "../Color.scss";
+.sales {
+  padding: 5rem 0;
+  .sales-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .sale {
+      width: 580px;
+      border-radius: 30px;
+      padding: 100px 70px;
+      height: 300px;
+      p {
+        font-family: yellowtail;
+        font-size: 20px;
+
+      }
+      h3 {
+        font-size: 2rem;
+        width: 60%;
+      }
+    }
+    .sale-left {
+      background: url("../../assets/natural.svg") center / cover no-repeat;
+      color: $white-color;
+    }
+    .sale-right {
+      background: url("../../assets/offer.svg") center / cover no-repeat;
+      p {
+        color: $secondary-color;
+      }
+      h3 {
+        color: $primary-color;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .sales {
+    padding: 4rem 0;
+    .sales-container {
+      max-width: 900px;
+      .sale {
+        width: 440px;
+        padding: 80px 40px;
+        height: 270px;
+        h3 {
+          font-size: 2rem;
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .sales {
+    padding: 3rem 0;
+    .sales-container {
+      max-width: 700px;
+      gap: 10px;
+      .sale {
+        width: 100%;
+        padding: 50px 40px;
+        height: 180px;
+        h3 {
+          font-size: 2rem;
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .sales {
+    padding: 2rem 0;
+    .sales-container {
+      max-width: 500px;
+      gap: 10px;
+      .sale {
+        width: 100%;
+        padding: 30px 20px;
+        height: 140px;
+        h3 {
+          font-size: 1.8rem;
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .sales {
+    padding: 1rem 0;
+    .sales-container {
+      max-width: 300px;
+      gap: 10px;
+      .sale {
+        width: 100%;
+        padding: 30px 20px;
+        height: 140px;
+        p {
+          font-size: 16px;
+        }
+        h3 {
+          font-size: 1.4rem;
+          width: 90%;
+        }
+      }
+    }
+  }
+}

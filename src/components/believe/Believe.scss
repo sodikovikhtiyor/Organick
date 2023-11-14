@@ -1,0 +1,250 @@
+@import "../Color.scss";
+.believe {
+  background: $light-gray-bg;
+  padding: 4rem 0;
+  .believe-container {
+    max-width: 1200px;
+    display: flex;
+    flex: auto auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    .half {
+      width: 49%;
+      .title {
+        color: $secondary-color;
+        font-family: yellowtail;
+        font-size: 31px;
+      }
+      h1 {
+        color: $primary-color;
+        font-size: 45px;
+        margin: 20px 0;
+      }
+      p {
+        font-size: 16px;
+        color: $grey-color;
+        margin-bottom: 2rem;
+      }
+      .believeLists {
+        margin: 20px 0;
+        .believeList {
+          display: flex;
+          vertical-align: middle;
+          margin-bottom: 15px;
+          img {
+            width: 80px;
+            background-color: $white-color;
+            border-radius: 20px;
+            // font-size: 2rem;
+            padding: 20px;
+          }
+          .believeListText {
+            margin-left: 20px;
+            h4 {
+              color: $primary-color;
+              font-size: 20px;
+              margin-bottom: 5px;
+            }
+            p {
+              width: 80%;
+            }
+          }
+          .whymeListText {
+            h4 {
+              background-color: #ececec;
+              display: inline-block;
+              color: $primary-color;
+              padding: 20px 70px 20px 20px;
+              border-radius: 40px;
+              .icon {
+                color: $secondary-color;
+                vertical-align: middle;
+                width: 20px;
+              }
+            }
+            p {
+              width: 70%;
+              margin: 1rem 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .believe {
+    padding: 3rem 0;
+    .believe-container {
+      max-width: 900px;
+
+      .half {
+        width: 49%;
+        .title {
+          font-size: 28px;
+          margin-bottom: 10px;
+        }
+        h1 {
+          font-size: 40px;
+          margin: 20px 0;
+        }
+        p {
+          font-size: 14px;
+          margin-bottom: 1.5rem;
+        }
+        .believeLists {
+          margin: 15px 0;
+          .believeList {
+            margin-bottom: 10px;
+            img {
+              width: 70px;
+              padding: 15px;
+            }
+            .believeListText {
+              margin-left: 15px;
+              h4 {
+                font-size: 18px;
+              }
+            }
+            .whymeListText {
+              h4 {
+                padding: 18px 70px 18px 18px;
+                border-radius: 40px;
+                font-size: 14px;
+                .icon {
+                  width: 18px;
+                }
+              }
+              p {
+                width: 80%;
+                margin: 0.7rem 1.7rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .believe {
+    padding: 2rem 0;
+    .believe-container {
+      max-width: 700px;
+
+      .half {
+        .title {
+          margin-bottom: 8px;
+        }
+        h1 {
+          font-size: 35px;
+          margin: 18px 0;
+        }
+        p {
+          font-size: 12px;
+          margin-bottom: 1.2rem;
+        }
+        .believeLists {
+          margin: 12px 0;
+          .believeList {
+            margin-bottom: 8px;
+            img {
+              width: 60px;
+              padding: 12px;
+            }
+            .believeListText {
+              margin-left: 12px;
+              h4 {
+                font-size: 15px;
+              }
+            }
+            .whymeListText {
+              h4 {
+                padding: 14px 50px 16px 16px;
+                font-size: 12px;
+                .icon {
+                  width: 16px;
+                }
+              }
+              p {
+                width: 80%;
+                margin: 0.7rem 1.7rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .believe {
+    padding: 1rem 0;
+    .believe-container {
+      max-width: 500px;
+
+      .half {
+        .title {
+          margin-bottom: 5px;
+        }
+        h1 {
+          font-size: 28px;
+          margin: 15px 0;
+        }
+        p {
+          font-size: 10px;
+          margin-bottom: 1rem;
+        }
+        .believeLists {
+          margin: 10px 0;
+          .believeList {
+            margin-bottom: 8px;
+            img {
+              width: 50px;
+              padding: 10px;
+            }
+            .believeListText {
+              margin-left: 10px;
+              h4 {
+                font-size: 13px;
+              }
+              p {
+                font-size: 10px;
+                width: 100%;
+              }
+            }
+            .whymeListText {
+              h4 {
+                padding: 12px 40px 12px 12px;
+                font-size: 10px;
+                .icon {
+                  width: 14px;
+                }
+              }
+              p {
+                width: 90%;
+                font-size: 10px;
+                margin: 0.5rem 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .believe {
+    padding: 1rem 0;
+    .believe-container {
+      max-width: 300px;
+
+      .half {
+        width: 100%;
+      }
+    }
+  }
+}

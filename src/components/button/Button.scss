@@ -1,0 +1,58 @@
+@import "../Color.scss";
+.btn {
+  margin-top: 20px;
+  border-radius: 16px;
+  font-size: 16px;
+  padding: 23px 34px;
+  border: none;
+  font-weight: 700;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.btnbgmain {
+  background-color: $primary-color;
+  color: $white-color;
+}
+.btnbgyellow {
+  background-color: $btn-bg-yellow;
+  color: $primary-color;
+}
+.outlined {
+  outline: 2px solid $primary-color;
+  color: $primary-color;
+  background-color: $white-color;
+}
+@media screen and (max-width: 1210px) {
+  .btn {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 20px 31px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .btn {
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 17px 28px;
+
+  }
+}
+@media screen and (max-width: 700px) {
+  .btn {
+    margin-top: 7px;
+    font-size: 10px;
+    padding: 14px 25px;
+    border-radius: 12px;
+
+  }
+}
+@media screen and (max-width: 500px) {
+  .btn {
+    width: 100%;
+    margin: 5px auto;
+    font-size: 14px;
+    border-radius: 8px;
+
+  }
+}

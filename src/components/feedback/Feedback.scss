@@ -1,0 +1,80 @@
+@import "../Color.scss";
+.feedback {
+  background: url("../../assets/limon.svg") center / cover no-repeat;
+  background-color: rgb(198, 198, 198);
+  padding: 2rem 0;
+  .feedback-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    .title {
+      color: $secondary-color;
+      font-family: yellowtail;
+      font-size: 25px;
+    }
+    h1 {
+      color: $primary-color;
+      font-size: 45px;
+      margin: 20px 0;
+    }
+    img {
+      width: 100px;
+      border-radius: 50px;
+      margin: 2rem 0;
+    }
+    p {
+      color: $grey-color;
+      font-size: 16px;
+      width: 53%;
+      margin: 2rem auto;
+    }
+    h4 {
+      font-size: 18px;
+      color: $primary-color;
+      font-weight: bold;
+    }
+    span {
+      color: $grey-color;
+      font-size: 14px;
+    }
+    hr {
+      margin: 4rem auto;
+      border: 1px solid #dedddd;
+      width: 70%;
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .feedback {
+    padding: 1rem 0;
+    .feedback-container {
+      max-width: 900px;
+      h1 {
+        font-size: 40px;
+        margin: 15px 0;
+      }
+      img {
+        width: 100px;
+        border-radius: 50px;
+        margin: 2rem 0;
+      }
+      p {
+        font-size: 16px;
+        width: 80%;
+        margin: 1.5rem auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .feedback {
+    padding: 0.6rem 0;
+    .feedback-container {
+      max-width: 500px;
+      h1 {
+        font-size: 30px;
+        margin: 15px 0;
+      } 
+    }
+  }
+}

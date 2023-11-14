@@ -1,0 +1,113 @@
+@import "../Color.scss";
+.econis {
+  display: flex;
+  padding: 5rem 0;
+  background: url("../../assets/nature.svg") left / contain no-repeat;
+  .econis-container {
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    .econis-text {
+      background-color: $white-color;
+      border-radius: 30px;
+      padding: 3rem;
+      max-width: 700px;
+    }
+    .half {
+      .title {
+        color: $secondary-color;
+        font-family: yellowtail;
+        font-size: 25px;
+      }
+      h1 {
+        color: $primary-color;
+        font-size: 45px;
+        margin: 20px 0;
+        width: 70%;
+      }
+      p {
+        color: $grey-color;
+        font-size: 16px;
+        // width: 53%;
+        margin: 10px 0;
+        margin-bottom: 2rem;
+      }
+      h4 {
+        font-size: 18px;
+        color: $primary-color;
+        font-weight: bold;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .econis {
+    padding: 4rem 0;
+    .econis-container {
+      width: 900px;
+      .econis-text {
+        padding: 2.5rem;
+        max-width: 600px;
+      }
+      .half {
+        h1 {
+          font-size: 40px;
+          margin: 18px 0;
+          width: 80%;
+        }
+        p {
+          margin: 10px 0;
+          margin-bottom: 1.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .econis {
+    padding: 4rem 0;
+    background-position: center;
+    background-size: cover;
+    .econis-container {
+      justify-content: center;
+      width: 700px !important;
+      .econis-text {
+        padding: 2rem !important;
+        // width: 800px;
+      }
+      .half {
+        h1 {
+          font-size: 35px !important;
+          margin: 16px 0 !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .econis {
+    padding: 2rem 0;
+    .econis-container {
+      width: 500px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .econis {
+    padding: 1rem 0;
+    .econis-container {
+      width: 400px !important;
+      .econis-text {
+        padding: 1rem !important;
+      }
+      .half {
+        h1 {
+          font-size: 30px !important;
+          margin: 14px 0 !important;
+        }
+      }
+    }
+  }
+}

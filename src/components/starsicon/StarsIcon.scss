@@ -1,0 +1,16 @@
+@import "../Color.scss";
+
+.staricon {
+  width: 18px !important;
+  color: $btn-bg-yellow;
+}
+@media screen and (max-width: 1210px) {
+  .staricon {
+    width: 14px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .staricon {
+    width: 16px !important;
+  }
+}

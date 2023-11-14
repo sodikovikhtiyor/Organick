@@ -1,0 +1,93 @@
+@import "../Color.scss";
+.showcase {
+  background: url("../../assets/Banner.png") center / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  .showcase-container {
+    width: 1200px;
+    margin: 0 auto;
+    .half {
+      width: 49%;
+      .title {
+        color: $secondary-color;
+        font-family: yellowtail;
+        font-size: 31px;
+      }
+      h1 {
+        color: $primary-color;
+        font-size: 54px;
+        width: 69%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .showcase {   
+    height: 90vh;
+    .showcase-container {
+      width: 900px;
+      .half {
+        width: 60%;
+        .title {
+          font-size: 28px;
+        }
+        h1 {
+          font-size: 50px;
+          width: 100%;
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .showcase {   
+    .showcase-container {
+      width: 700px;
+      .half {
+        width: 60%;
+        .title {
+          font-size: 24px;
+        }
+        h1 {
+          font-size: 45px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .showcase {   
+    .showcase-container {
+      width: 500px;
+      .half {
+        width: 62%;
+        .title {
+          font-size: 24px;
+        }
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .showcase {   
+    height: 100vh;
+    .showcase-container {
+      width: 300px;
+      .half {
+        width: 100%;
+        .title {
+          font-size: 28px;
+        }
+        h1 {
+          font-size: 35px;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

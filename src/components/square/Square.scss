@@ -1,0 +1,42 @@
+@import "../Color.scss";
+.squares {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 0;
+  background-color: #f1f8f4;
+  flex-wrap: wrap;
+  
+  .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 450px;
+    background: url("../../assets/orange.svg") center / cover no-repeat;
+    h4 {
+      color: $primary-color;
+      font-size: 20px;
+      background: $white-color;
+      padding: 20px 30px;
+      border-radius: 20px;
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+    .squares {
+        padding: 6rem 0;
+        justify-content: center;
+        gap: 20px;
+        .square { 
+          max-width: 300px;
+          height: 300px;
+          h4 {
+            color: $primary-color;
+            font-size: 20px;
+            background: $white-color;
+            padding: 20px 30px;
+            border-radius: 20px;
+          }
+        }
+      }
+}
