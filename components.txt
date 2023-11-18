@@ -1,0 +1,14 @@
+Header
+Navbar
+button
+Showcase
+Sales
+Products -> Product
+Feedback
+Numbers -> number
+Offers -> offer
+Econis
+Square
+news
+Subscribe
+footer
