@@ -3,8 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import "./Header.scss";
 import Logo from "../../assets/Logo.svg";
 import SearchIcon from "@mui/icons-material/Search";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import MenuIcon from "@mui/icons-material/Menu";
+// import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+// import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
 function Header() {
   return (
@@ -23,12 +23,12 @@ function Header() {
             <SearchIcon className="searchIcon" />
           </div>
           <div className="headerIconCard">
-            <ShoppingCartIcon className="cardIcon" />
+            {/* <ShoppingCartIcon className="cardIcon" /> */}
             <p>
               <span>Card</span> (0)
             </p>
           </div>
-          <MenuIcon className="menuIcon" />
+          {/* <MenuIcon className="menuIcon" /> */}
         </div>
       </div>
     </div>
