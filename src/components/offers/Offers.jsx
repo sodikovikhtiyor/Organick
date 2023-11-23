@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../button/Button";
-import  Product  from "../product/Product";
-import Onion from "../../assets/ONion.svg";
+import Product from "../product/Product";
+import Onion from "../../assets/Onion.svg";
 import "./Offers.scss";
 function Offers() {
   return (
