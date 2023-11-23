@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../navbar/Navbar";
 import "./Header.scss";
 import Logo from "../../assets/Logo.svg";
 import SearchIcon from "@mui/icons-material/Search";
@@ -11,8 +11,8 @@ function Header() {
     <div className="header">
       <div className="header-container">
         <div className="logo">
-            <img src={Logo} alt="logo" />
-          <NavLink className='link' to="/">
+          <img src={Logo} alt="logo" />
+          <NavLink className="link" to="/">
             <h2>Organick</h2>
           </NavLink>
           <Navbar />
