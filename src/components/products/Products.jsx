@@ -14,7 +14,7 @@ function Products() {
         <Product cardimg={Brocly} />
         <Product cardimg={Brocly} />
         <NavLink to="/shop">
-          <Button btnType="btn btnbgmain" children="Load More >" />
+          <Button btnType="btn btnbgmain" children="Load More" />
         </NavLink>
       </div>
     </div>

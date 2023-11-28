@@ -23,6 +23,15 @@
   color: $primary-color;
   background-color: $white-color;
 }
+.arrowIcon {
+  vertical-align: middle;
+  color: $white-color;
+  background-color:#335B6B;
+  border-radius: 20px;
+  padding: 3px;
+  width: 109px;
+
+}
 @media screen and (max-width: 1210px) {
   .btn {
     margin-top: 15px;

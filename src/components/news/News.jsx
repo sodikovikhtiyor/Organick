@@ -11,7 +11,7 @@ function News() {
         <div className="news-text">
           <h1>Discover weekly content about organic food, & more</h1>
           <NavLink to="/news">
-            <Button btnType="btn outlined" children="More News >" />
+            <Button btnType="btn outlined" children="More News" />
           </NavLink>
         </div>
         <div className="newscards">
@@ -28,7 +28,7 @@ function News() {
                 Lorem Ipsum
               </p>
               <NavLink to="/news">
-                <Button btnType="btn btnbgyellow" children="Read More >" />
+                <Button btnType="btn btnbgyellow" children="Read More" />
               </NavLink>
             </div>
           </div>
@@ -45,7 +45,7 @@ function News() {
                 Lorem Ipsum
               </p>
               <NavLink to="/shop">
-                <Button btnType="btn btnbgyellow" children="Read More >" />
+                <Button btnType="btn btnbgyellow" children="Read More" />
               </NavLink>
             </div>
           </div>
