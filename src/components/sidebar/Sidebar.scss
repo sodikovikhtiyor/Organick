@@ -1,0 +1,52 @@
+@import "../Color.scss";
+.sidebar {
+  background-color: $dark-gray-bg;
+}
+.nav-menu {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+}
+.nav-menu.active {
+  right: 0;
+  transition: 350ms;
+}
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 16px 8px 0;
+}
+.nav-text a {
+  color: $primary-color;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 5px 16px;
+}
+.nav-text a:hover {
+  text-decoration: underline;
+}
+.nav-menu-items {
+  width: 100%;
+}
+.navbar-toggle a{
+  color: $primary-color;
+  width: 100%;
+  padding: 0 16px;
+  font-weight: bold;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.sideIcon {
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
