@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../navbar/Navbar";
 import "./Header.scss";
 import "../sidebar/Sidebar.scss";
-import Logo from "../../assets/Logo.svg";
+import Logo from "../../assets/Logo.webp";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MenuIcon from "@mui/icons-material/Menu";

@@ -1,5 +1,5 @@
 import React from "react";
-import CardIcon from "../../assets/specIcon.svg";
+import CardIcon from "../../assets/specIcon.webp";
 import "./Whycard.scss";
 function Whycard() {
   const whycards = [

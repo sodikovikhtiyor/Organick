@@ -12,7 +12,7 @@ function Showcase() {
           <p className="title">100% Natural Food</p>
           <h1>Choose the best healthier way of life</h1>
           <NavLink to='/about'>
-            <Button btnType="btn btnbgyellow" children="Explore Now" />
+            <Button btnType="btn btnbgyellow" children="Explore Now >" />
           </NavLink>
         </div>
         <div className="half"></div>

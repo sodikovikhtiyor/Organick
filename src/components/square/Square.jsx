@@ -1,6 +1,6 @@
 import React from "react";
 import "./Square.scss";
-import Orange from "../../assets/orange.svg";
+import Orange from "../../assets/orange.webp";
 function Square() {
   const squares = [
     {
@@ -36,7 +36,7 @@ function Square() {
             <h4
               style={{
                 background:
-                  "url(../../assets/orange.svg) center / cover no-repeate",
+                  "url(../../assets/orange.webp) center / cover no-repeate",
               }}
             >
               {square.text}

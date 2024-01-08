@@ -8,7 +8,7 @@ import Sales from "../sales/Sales";
 import Showcase from "../shohwcase/Showcase";
 import Square from "../square/Square";
 import Subscribe from "../subscribe/Subscribe";
-import Fruits from "../../assets/fruits.svg";
+import Fruits from "../../assets/fruits.webp";
 
 export const Home = () => {
   return (

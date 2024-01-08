@@ -1,0 +1,268 @@
+@import "../Color.scss";
+.portfolio-single {
+  color: $primary-color;
+
+  .portfolio-container {
+    width: 1200px;
+    margin: 0 auto;
+
+    .single-desc {
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      border-radius: 30px;
+      margin-top: -9rem;
+      align-items: center;
+
+      .half:first-child {
+        padding: 5rem;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        box-shadow: 0px 14px 36px 0px #cccccc40;
+        width: 65%;
+        h1 {
+          font-size: 54px;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      .half:last-child {
+        background: #fafafa;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 5rem;
+        width: 50%;
+        ul li {
+          font-size: 16px;
+          line-height: 2.5rem;
+          display: flex;
+          justify-content: start;
+          gap: 20px;
+          b {
+            display: flex;
+            justify-content: space-between;
+            width: 90px;
+          }
+          p {
+            text-align: left;
+          }
+        }
+      }
+    }
+    .farm {
+      text-align: left;
+      padding: 5rem 0;
+      width: 800px;
+      margin: 0 auto;
+      h1 {
+        font-size: 32px;
+        margin: 2rem 0;
+      }
+      p {
+        margin-bottom: 2rem;
+        line-height: 2rem;
+      }
+      img {
+        border-radius: 30px;
+        margin-bottom: 1rem;
+      }
+      span {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1210px) {
+  .portfolio-single {
+    .portfolio-container {
+      width: 900px;
+      .single-desc {
+        .half {
+          padding: 4rem;
+        }
+        .half:first-child {
+          padding: 4rem;
+          width: 80%;
+          h1 {
+            font-size: 46px;
+            margin-bottom: 1rem;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+        .half:last-child {
+          padding: 4rem;
+          ul li {
+            font-size: 12px;
+            line-height: 1.8rem;
+            gap: 18px;
+            b {
+              width: 80px;
+            }
+          }
+        }
+      }
+      .farm {
+        padding: 4rem 0;
+        width: 650px;
+        h1 {
+          font-size: 28px;
+          margin: 1.5rem 0;
+        }
+        p {
+          font-size: 14px;
+          margin-bottom: 1.5rem;
+          line-height: 1.8rem;
+        }
+        img {
+          margin-bottom: 0.8rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .portfolio-single {
+    .portfolio-container {
+      width: 700px;
+      .single-desc {
+        .half:first-child {
+          padding: 3rem;
+          width: 70%;
+          h1 {
+            font-size: 38px;
+            margin-bottom: 0.8rem;
+          }
+          p {
+            font-size: 10px;
+          }
+        }
+        .half:last-child {
+          padding: 3rem;
+          ul li {
+            font-size: 10px;
+            line-height: 1.6rem;
+            gap: 16px;
+            b {
+              width: 60px;
+            }
+          }
+        }
+      }
+      .farm {
+        padding: 3rem 0;
+        width: 450px;
+        h1 {
+          font-size: 26px;
+          margin: 1.4rem 0;
+        }
+        p {
+          font-size: 13px;
+          margin-bottom: 1.5rem;
+          line-height: 1.6rem;
+        }
+        img {
+          margin-bottom: 0.8rem;
+          border-radius: 28px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .portfolio-single {
+    .portfolio-container {
+      width: 500px;
+      .single-desc {
+        flex-direction: column;
+        padding: 1rem;
+        .half:first-child {
+          padding: 1.5rem;
+          width: 100%;
+
+          h1 {
+            font-size: 36px;
+            margin-bottom: 0.5rem;
+          }
+        }
+        .half:last-child {
+          padding: 1.5rem;
+          width: 100%;
+          ul li {
+            line-height: 1.4rem;
+          }
+        }
+      }
+      .farm {
+        padding: 2rem 0;
+        width: 300px;
+        h1 {
+          font-size: 24px;
+          margin: 1rem 0;
+        }
+        p {
+          font-size: 10px;
+          margin-bottom: 1.2rem;
+          line-height: 1.4rem;
+        }
+        span {
+          font-size: 10px;
+        }
+        img {
+          margin-bottom: 0.6rem;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-single {
+    .portfolio-container {
+      width: 300px;
+      .single-desc {
+        .half:first-child {
+          padding: 1rem;
+          h1 {
+            font-size: 30px;
+            margin-bottom: 0.3rem;
+          }
+          p {
+            font-size: 8px;
+          }
+        }
+        .half:last-child {
+          padding: 1rem;
+          ul li {
+            line-height: 1.4rem;
+            font-size: 8px;
+          }
+        }
+      }
+      .farm {
+        padding: 2rem 0;
+        width: 300px;
+        h1 {
+          font-size: 24px;
+          margin: 1rem 0;
+        }
+        p {
+          font-size: 10px;
+          margin-bottom: 1.2rem;
+          line-height: 1.4rem;
+        }
+        span {
+          font-size: 10px;
+        }
+        img {
+          margin-bottom: 0.6rem;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}

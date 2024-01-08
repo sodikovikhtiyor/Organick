@@ -1,8 +1,8 @@
 import React from "react";
 import "./Believe.scss";
 import Button from "../button/Button";
-import Vegan from "../../assets/Vegan.svg";
-import Postal from "../../assets/postal.svg";
+import Vegan from "../../assets/Vegan.webp";
+import Postal from "../../assets/postal.webp";
 import { NavLink } from "react-router-dom";
 function Believe({ img, title }) {
   return (

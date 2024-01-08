@@ -8,13 +8,15 @@
     justify-content: space-between;
     padding: 0 3rem;
     align-items: center;
-    background: url("../../assets/Background.svg") center / cover no-repeat;
+    background: url("../../assets/Background.jpg") center / cover no-repeat;
     height: 300px;
     border-radius: 30px;
     .half {
       h1 {
         font-size: 45px;
         width: 55%;
+        color: #fff;
+        text-align: left;
       }
       input {
         border-radius: 16px;

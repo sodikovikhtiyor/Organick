@@ -1,5 +1,5 @@
 import React from "react";
-// import Nature from "../../assets/nature.svg";
+// import Nature from "../../assets/nature.webp";
 import './Econis.scss'
 function Econis() {
   return (

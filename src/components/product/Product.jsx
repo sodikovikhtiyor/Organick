@@ -1,8 +1,8 @@
 import React from "react";
-import Brocly from "../../assets/Brocly.svg";
+import Brocly from "../../assets/Brocly.webp";
 import "./Product.scss";
 import StarsIcons from "../starsicon/StarsIcons";
-function Product({cardimg}) {
+function Product({ cardimg }) {
   const cards = [
     {
       id: 1,
@@ -14,7 +14,7 @@ function Product({cardimg}) {
     },
     {
       id: 2,
-      category: "Vegetable",
+      category: "Fresh",
       img: cardimg,
       name: "Calabrese Broccoli",
       oldPrice: "$20.00",

@@ -2,7 +2,7 @@ import React from "react";
 import StarsIcons from "../starsicon/StarsIcons";
 import Number from "../number/Number";
 import "./Feedback.scss";
-import Photo from "../../assets/Photo.svg";
+import Photo from "../../assets/Photo.webp";
 function Feedback() {
   return (
     <div className="feedback">

@@ -1,0 +1,15 @@
+@import "../Color.scss";
+.singleProduct {
+  text-align: center;
+  .singleProduct-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    h1 {
+        margin-bottom: 2rem;
+    }
+  }
+  h1 {
+    color: $primary-color;
+    font-size: 50px;
+  }
+}

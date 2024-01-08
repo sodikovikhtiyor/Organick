@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutOffer.scss";
-import cardImg from "../../assets/Nuts.svg";
+import cardImg from "../../assets/Nuts.webp";
 function AboutOffer() {
   const products = [
     {

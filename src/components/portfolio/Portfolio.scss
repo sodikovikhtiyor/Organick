@@ -1,0 +1,78 @@
+@import "../Color.scss";
+.portfolio-container {
+  width: 1200px;
+  margin: 5rem auto;
+  .portfolio-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .product {
+      width: 380px;
+      text-align: left;
+      img {
+        border-radius: 30px;
+      }
+      h5 {
+        font-size: 20px;
+        margin: 0.5rem 0;
+        color: $primary-color;
+      }
+      p {
+        margin-bottom: 2rem;
+        color: $secondary-color;
+        //   width: 90%;
+        font-family: yellowtail;
+        vertical-align: middle;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-container {
+    width: 900px;
+    margin: 4rem auto;
+    .portfolio-products {
+      .product {
+        width: 280px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .portfolio-container {
+    width: 700px;
+    margin: 3rem auto;
+    .portfolio-products {
+      .product {
+        width: 300px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .portfolio-container {
+    width: 500px;
+    margin: 2rem auto;
+    .portfolio-products {
+      justify-content: center;
+      .product {
+        width: 400px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-container {
+    width: 300px;
+    margin: 2rem auto;
+    .portfolio-products {
+      justify-content: center;
+      .product {
+        width: 400px;
+      }
+    }
+  }
+}

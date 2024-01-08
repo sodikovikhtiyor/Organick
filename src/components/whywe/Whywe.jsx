@@ -1,5 +1,5 @@
 import React from "react";
-import mashrooms from "../../assets/mashrooms.svg";
+import mashrooms from "../../assets/mashrooms.webp";
 import TripOriginIcon from '@mui/icons-material/TripOrigin';
 import Whycard from "../whycards/Whycard";
 function Whywe() {
